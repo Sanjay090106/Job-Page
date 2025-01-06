@@ -1,0 +1,34 @@
+.featured-companies {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .featured-companies h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .company-logo {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .company-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .company-logo span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }

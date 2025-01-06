@@ -1,0 +1,336 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+
+  .first {
+    text-align: center;
+    margin: 10px;
+    padding: 5%;
+    font-size: 20px;
+    background: linear-gradient(to right, #c2fbf4, #eec9a6);
+  }
+  
+  .first h6 {
+    padding-top: 20px;
+    color: grey;
+  }
+  
+  .search-bar {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 8px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .latest {
+    margin: 25px;
+    padding: 10px;
+  }
+  
+  .latest h1 {
+    font-size: 24px;
+  }
+  
+  .latest h4 {
+    color: grey;
+  }
+  
+  .latest-feat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .list {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .im {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+  
+  .cont h3 {
+    margin: 10px 0;
+  }
+  
+  .cont h4 {
+    color: grey;
+  }
+  
+  .descr h3 {
+    color: rgba(255, 95, 8, 1);
+  }
+  
+  .descr h4 {
+    margin: 5px 0;
+  }
+  
+  .h5c {
+    margin: 5px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+
+  .image-container {
+    display: flex; 
+  justify-content: center;
+    align-items: center; 
+    gap:10px; 
+    padding: 10px; 
+  }
+  
+  .image-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .image-item {
+    width: 150px;
+    height: auto; 
+    border-radius: 8px;
+padding:5px; 
+
+  }
+
+  .image-label {
+    margin-top: 3px; 
+    font-size: 14px;
+
+  }
+.Col {
+    color: green; 
+  }
+
+.image-label-bold {
+    font-weight: bold; /* Make Mumbai text bold */
+  }
+.view {
+display: block;
+margin: 30px auto; 
+padding: 10px 20px;
+
+border: 1px solid black; 
+border-radius: 5px; 
+font-size: 16px; 
+cursor: pointer; 
+}
+  
+  .featured-companies {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .featured-companies h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .company-logo {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .company-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .company-logo span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .steps-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .steps-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    text-align: center;
+    max-width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step .emoji {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .step h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .step p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  .sign-up-box {
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffa17f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    color: white;
+  }
+  
+  .sign-up-box button {
+    background-color: #fff;
+    color: #ffa17f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-up-box button:hover {
+    background-color: #f0bfa1;
+    color: white;
+  }
+  
+  .faq-section {
+    padding: 40px;
+  }
+  
+  .faq-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .faq {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #ffe5d4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .faq-item summary {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .faq-item summary:hover {
+    background-color: #f0bfa1;
+  }
+  
+  .faq-item[open] summary {
+    background-color: #ffa17f;
+    color: white;
+  }
+  
+  .faq-item summary::marker {
+    content: '';
+  }
+  
+  .faq-item summary .arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-item[open] summary .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .faq-item p {
+    padding: 15px 20px;
+    background: #ffd9c2;
+    margin: 0;
+    border-top: 1px solid #ddd;
+  }

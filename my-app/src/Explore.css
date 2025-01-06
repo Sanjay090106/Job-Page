@@ -1,0 +1,45 @@
+.image-container {
+    display: flex; 
+  justify-content: center;
+    align-items: center; 
+    gap:10px; 
+    padding: 10px; 
+  }
+  
+  .image-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .image-item {
+    width: 150px;
+    height: auto; 
+    border-radius: 8px;
+padding:5px; 
+
+  }
+
+  .image-label {
+    margin-top: 3px; 
+    font-size: 14px;
+
+  }
+.Col {
+    color: green; 
+  }
+
+.image-label-bold {
+    font-weight: bold; /* Make Mumbai text bold */
+  }
+.view {
+display: block;
+margin: 30px auto; 
+padding: 10px 20px;
+
+border: 1px solid black; 
+border-radius: 5px; 
+font-size: 16px; 
+cursor: pointer; 
+}
